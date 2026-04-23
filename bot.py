@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8624570442:AAFeOR9XT0UyI0d20KWNw_Uyy9-q9LYnqXk")
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN topilmadi! Railway Variables ni tekshir")
